@@ -8,6 +8,7 @@ import insta from '../assets/Ins.svg';
 import headerImg from '../assets/header.png';
 import TrackVisibility from "react-on-screen";
 import 'animate.css';
+import React  from 'react';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] =  useState(0);

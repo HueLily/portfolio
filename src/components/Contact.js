@@ -4,6 +4,7 @@ import contact from '../assets/contact-img.png';
 import LinkedIn from '../assets/linkedIn.svg';
 import github from '../assets/github.svg';
 import insta from '../assets/Ins.svg';
+import React  from 'react';
 
 
 export const Contact = () => {

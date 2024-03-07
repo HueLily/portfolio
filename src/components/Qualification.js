@@ -13,7 +13,7 @@ import react from '../assets/react.svg';
 import api from '../assets/api.png';
 import SQL from '../assets/sql.svg';
 import headerImg from '../assets/header-img.png';
-
+import React  from 'react';
 
 export const Qualification = () => {
     const responsive = {

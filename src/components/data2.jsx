@@ -1,5 +1,5 @@
 import { BriefcaseFill } from "react-bootstrap-icons";
-
+import React  from 'react';
 
 
 export const organization = [

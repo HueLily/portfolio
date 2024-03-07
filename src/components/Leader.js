@@ -8,6 +8,7 @@ import WiCS1 from '../assets/wics-eb.jpg';
 import WiCS2 from '../assets/wics.jpg';
 import tapia from '../assets/tapia-img.jpg';
 import { Activities } from "./Activities";
+import React  from 'react';
 
 export const Leader = () => {
 

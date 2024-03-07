@@ -1,4 +1,4 @@
-import React from "react";
+import React  from 'react';
 import Close from '../assets/x-circle.svg';
 import { useState } from "react";
 

@@ -1,4 +1,5 @@
 import { Col } from "react-bootstrap";
+import React  from 'react';
 
 export const Activities = ({ title, imgUrl }) => {
   return (

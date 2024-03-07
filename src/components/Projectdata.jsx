@@ -3,6 +3,7 @@ import { CodeSlash } from "react-bootstrap-icons";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
 import depauwhack from '../assets/DePauw-hack.png';
 import api from '../assets/gg-api.jpg';
+import React  from 'react';
 import wortal from '../assets/wortal.png';
 
 export const projects = [

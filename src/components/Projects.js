@@ -1,7 +1,7 @@
 import { Container, Row, Col} from "react-bootstrap";
 import projects from "./Projectdata";
 import { ProjectItem } from "./ProjectItem";
-
+import React  from 'react';
 
 export const Projects = () => {
     return (

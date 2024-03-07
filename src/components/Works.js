@@ -2,6 +2,7 @@ import { Container, Row, Col, } from "react-bootstrap";
 import works from '../components/data';
 import organization from "./data2";
 import { WorkItem } from "./WorkItem";
+import React  from 'react';
 
 
 export const Works = () => {

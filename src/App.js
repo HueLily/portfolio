@@ -7,7 +7,7 @@ import { Projects } from './components/Projects';
 import { Leader } from './components/Leader';
 import { Contact } from './components/Contact';
 import'bootstrap/dist/css/bootstrap.min.css';
-
+import React  from 'react';
 
 function App() {
   return (
