@@ -367,7 +367,11 @@ border-right: 0.08em solid #666;
 
 /* About Me */
 .qualification {
-  background-image: linear-gradient(to bottom, #000000, #230c16, #3c0e2a, #540e44, #681164, #761b79, #82268f, #8e32a6, #9e3eb2, #af4bbd, #bf57c9, #d064d5);
+  background-image: url('assets/banner-bg.png') !important;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
   padding: 0 0 50px 0;
   position: relative;
 }
@@ -484,7 +488,11 @@ border-right: 0.08em solid #666;
 
 /* Works */
 .work {
-  background-image: linear-gradient(to bottom, #d064d5, #b370dd, #9579e0, #7780de, #5c84d7, #408cd6, #2293d3, #0098cc, #00a3c8, #00adbf, #00b5b2, #40bca3);
+  background-image: url('assets/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
   padding: 80px 0;
   position: relative;
 }
@@ -555,7 +563,11 @@ border-right: 0.08em solid #666;
 /* Projects */
 
 .project {
-  background-image: linear-gradient(to top, #d064d5, #b370dd, #9579e0, #7780de, #5c84d7, #408cd6, #2293d3, #0098cc, #00a3c8, #00adbf, #00b5b2, #40bca3);
+  background-image: url('assets/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
   padding: 80px 0;
   position: relative;
 }
@@ -686,8 +698,11 @@ border-right: 0.08em solid #666;
 
 /* Leadership */
 .leadership {
-  background-image: linear-gradient(to top, #d064d5, #b370dd, #9579e0, #7780de, #5c84d7, #408cd6, #2293d3, #0098cc, #00a3c8, #00adbf, #00b5b2, #40bca3);
-  background-image: linear-gradient(to top, #000000, #230c16, #3c0e2a, #540e44, #681164, #761b79, #82268f, #8e32a6, #9e3eb2, #af4bbd, #bf57c9, #d064d5);
+  background-image: url('assets/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
   padding: 80px 0;
   position: relative;
 }
