@@ -14,6 +14,16 @@ export const works = [
         desc3: "                                                                                                                                                                                                                                        ",
     },
     {
+        id: 1,
+        icon: <BriefcaseFill />,
+        year: "08/2023 - PRESENT",
+        title:"Computer Science Teaching Assistant",
+        location: "",
+        desc1: "Assists professors in CSC121 in introducing the course using Java and supports 30 students, which achieve a 40% improvement in their total grade",
+        desc2: "Conducts weekly-3 hours sessions to help students with their assignments, coding projects and prepare them for quizzes and exams",
+        desc3: "                                                                                                                                                                                                                                        ",
+    },
+    {
         id: 2,
         icon: <BriefcaseFill />,
         year: "05/2023 - 08/2023",
