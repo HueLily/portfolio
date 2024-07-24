@@ -5,7 +5,7 @@ import { ArrowDownCircleFill } from "react-bootstrap-icons";
 import linkedIn from '../assets/linkedIn.svg' //use img as object
 import gmail from '../assets/gmail.svg';
 import insta from '../assets/Ins.svg';
-import headerImg from '../assets/header.png';
+import bannerImg from '../assets/banner-img.png'
 import TrackVisibility from "react-on-screen";
 import 'animate.css';
 import React  from 'react';
@@ -15,7 +15,7 @@ export const Banner = () => {
     //indicate like index as word currently displayed 
     const [isDeleting, setIsDeleting] = useState(false);
     //words being typed out or breing deleted
-    const toRotate = ["Web Developer", "Software Developer", "Web Design"];
+    const toRotate = ["Computer Science Major", "Software Developer", "student"];
     const [text, setText] = useState('')
     //which part is showing words are displaying
     const [index, setIndex] = useState(1);
@@ -82,7 +82,7 @@ export const Banner = () => {
                     <TrackVisibility>
                         {({ isVisible }) =>
                         <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                        <img src={headerImg} alt="Headder Img"></img>
+                        <img src={bannerImg} alt="Headder Img"></img>
                         </div> }
                     </TrackVisibility>
                     </Col>
