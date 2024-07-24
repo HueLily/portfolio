@@ -1,4 +1,6 @@
 import organic from '../assets/organic.jpg';
+import musicApp from '../assets/music-app.png'
+import marketApp from '../assets/market-app.png'
 import { CodeSlash } from "react-bootstrap-icons";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
 import depauwhack from '../assets/DePauw-hack.png';
@@ -9,6 +11,42 @@ import wortal from '../assets/wortal.png';
 export const projects = [
     {
         id: 1,
+        img: musicApp,
+        title: 'Music App',
+        details: [
+            {
+                icon: <CodeSlash/>,
+                title: 'Language: ',
+                desc: 'React, MongoDB, Java, Spring Boot, PostgreSQL, Spotify API, OpenAI API, Authentication',
+            },
+            {
+                icon: <BoxArrowUpRight/>,
+                title: 'Preview: ',
+                desc: '',
+            },
+        ],
+    },
+
+    {
+        id: 2,
+        img: marketApp,
+        title: 'Renoon Same',
+        details: [
+            {
+                icon: <CodeSlash/>,
+                title: 'Language: ',
+                desc: 'React, Tailwind CSS, MongoDB, Node.js, Express.js, Authetication',
+            },
+            {
+                icon: <BoxArrowUpRight/>,
+                title: 'Preview: ',
+                desc: '',
+            },
+        ],
+    },
+
+    {
+        id: 3,
         img: organic,
         title: 'ORGANIC LIFE',
         details: [
@@ -26,7 +64,7 @@ export const projects = [
     },
 
     {
-        id: 2,
+        id: 4,
         img: depauwhack,
         title: 'DePauw Hackathon Website',
         details: [
@@ -44,7 +82,7 @@ export const projects = [
     },
 
     {
-        id: 3,
+        id: 5,
         img: api,
         title: 'Google API Workshop',
         details: [
@@ -62,7 +100,7 @@ export const projects = [
     },
 
     {
-        id: 4,
+        id: 6,
         img: wortal,
         title: 'Wortal _ Hackathon',
         details: [
